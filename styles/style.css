@@ -1,1 +1,74 @@
 @import "/styles/reset.css";
+*{
+    margin: 0;
+}
+.nav-ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: black;
+    margin-right: 417px;
+}
+.nav-ul:hover{
+    color: white;
+}
+.nav-ul{
+    background-color: #012D63;
+    height: 50px
+}
+a{
+    color: rgb(172, 167, 167);
+    cursor: pointer;
+}
+a:hover{
+    color: white;
+}
+.main{
+    background-image: url(/images/background.png);
+    width: 1440px;
+    height: 858px;
+}
+.h1{
+    margin-left: 150px;
+    color: white;
+    font-size: 144px;
+    font-weight: 400;
+}
+.h12{
+    margin-left: 165px;
+    color: white;
+    font-size: 72px;
+    font-weight: 400;
+}
+.img{
+    margin-left: 170px;
+    margin-top: 108px;
+   height: 70px;
+   width: 115px;
+}
+.img2{
+    margin-left: 185px;
+    height: 25px;
+}
+.text{
+    color: white;
+    margin-left: 170px;
+}
+.btn{
+    color: white;
+    background-color: rgb(109, 28, 184);
+    height: 50px;
+    width: 190px;
+    margin-left: 170px;
+    border-radius: 10%;
+}
+.benefits{
+    background-image: url(/images/background.2.0.png);
+    width: 1440px;
+    height: 606px;
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
