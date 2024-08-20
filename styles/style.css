@@ -7,7 +7,7 @@
     justify-content: space-around;
     list-style: none;
     color: black;
-    margin-right: 417px;
+    margin-right: 457px;
 }
 .nav-ul:hover{
     color: white;
@@ -25,8 +25,10 @@ a:hover{
 }
 .main{
     background-image: url(/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 1440px;
-    height: 858px;
+    height: 850px;
 }
 .h1{
     margin-left: 150px;
@@ -64,11 +66,132 @@ a:hover{
 }
 .benefits{
     background-image: url(/images/background.2.0.png);
-    width: 1440px;
-    height: 606px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1230px;
+    padding: 165px 105px;
 }
 .images{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    border: 5px solid #8E32C6;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.images-wraper2{
+    padding-left: 95px;
+    padding-right: 95px;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+.Reviews{
+    background-image: url(/images/background.3.0.png);
+    background-repeat: no-repeat;
+    height: 520px;
+
+}
+.title{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    color: #fff;
+    margin-right: 300px;
+}
+.reviews-img1{
+    width: 230px;
+    height: 370px;
+    position: absolute;
+    top: 1795px;
+}
+.review1{
+    padding: 20px;
+    background-color: pink;
+    border-radius: 8px;
+    box-shadow: 0 10px 0 -13px #533978, 0 14px 0 -5px #7b54b2;
+    background: linear-gradient(135deg, #00e5e6 7.29%, #00a8f7 26.04%, #9a76f9 62.5%, #cc5ec2 100%);
+    width: 150px;
+    height: 200px;
+    margin-left: 400px;
+    margin-top: 90px;
+    color: white;
+    position: relative;
+}
+.review2{
+    padding: 20px;
+    background-color: pink;
+    border-radius: 8px;
+    box-shadow: 0 10px 0 -13px #61337c, 0 14px 0 -5px #9159b1;
+    background: linear-gradient(135deg, #ff68b4 0%, #ff45e1 26.04%, #ce3aff 62.84%, #8961ff 100%);
+    width: 150px;
+    height: 200px;
+    margin-left: 700px;
+    bottom: 240px;
+    color: white;
+    position: relative;
+}
+.review3{
+    padding: 20px;
+    background-color: pink;
+    border-radius: 8px;
+    box-shadow: 0 10px 0 -13px #732f26, 0 14px 0 -5px #b95a4c;
+    background: linear-gradient(135deg, #ffe128 0%, #ff9b5c 30.21%, #ff8381 63.29%, #ff5489 100%);
+    width: 150px;
+    height: 200px;
+    margin-left: 1000px;
+    bottom: 479px;
+    color: white;
+    position: relative;
+}
+.Order{
+    background-image: url(/images/background.4.0.png);
+    background-repeat: no-repeat;
+}
+.title2{
+margin-left: 720px;
+color: white;
+font-family: var(--second-family);
+font-weight: 400;
+font-size: 48px;
+color: #fff;
+}
+.order-input{
+    margin-left: 490px;
+    
+}
+.order-btn{
+    margin-left: 680px;
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #8E32C6;
+    color: white;
+    cursor: pointer;
+}
+input{
+    height: 40px;
+    width: 580px;
+    border-radius: 50px;
+}
+.footer{
+    background-color: #021635;
+    background-repeat: no-repeat;
+}
+p{
+    color: white;
+}
+.p1{
+    margin-left: 165px;
+    padding-top: 10px;
+}
+.p2{
+    margin-left: 940px;
+    padding-bottom: 10px;  
+}
+.p3{
+    margin-left: 165px;
 }
