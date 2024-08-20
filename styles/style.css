@@ -89,9 +89,9 @@ a:hover{
     border-left: 1px solid white;
 }
 .Reviews{
-    background-image: url(/images/background.3.0.png);
-    background-repeat: no-repeat;
+    background: url(/images/background.3.0.png) no-repeat center/cover;
     height: 520px;
+    width: 1440px;
 
 }
 .title{
@@ -100,7 +100,17 @@ a:hover{
     font-size: 48px;
     text-align: center;
     color: #fff;
-    margin-right: 300px;
+    margin-bottom: 30px;
+}
+.review-profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 6px;
+}
+.review-profile img{
+    width: 31px;
+    height: 31px;
 }
 .reviews-img1{
     width: 230px;
@@ -108,44 +118,31 @@ a:hover{
     position: absolute;
     top: 1795px;
 }
-.review1{
-    padding: 20px;
-    background-color: pink;
-    border-radius: 8px;
-    box-shadow: 0 10px 0 -13px #533978, 0 14px 0 -5px #7b54b2;
-    background: linear-gradient(135deg, #00e5e6 7.29%, #00a8f7 26.04%, #9a76f9 62.5%, #cc5ec2 100%);
-    width: 150px;
-    height: 200px;
-    margin-left: 400px;
-    margin-top: 90px;
-    color: white;
-    position: relative;
+.review-container{
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
 }
-.review2{
+.review{
     padding: 20px;
     background-color: pink;
     border-radius: 8px;
-    box-shadow: 0 10px 0 -13px #61337c, 0 14px 0 -5px #9159b1;
-    background: linear-gradient(135deg, #ff68b4 0%, #ff45e1 26.04%, #ce3aff 62.84%, #8961ff 100%);
     width: 150px;
     height: 200px;
-    margin-left: 700px;
-    bottom: 240px;
-    color: white;
-    position: relative;
-}
-.review3{
-    padding: 20px;
-    background-color: pink;
-    border-radius: 8px;
-    box-shadow: 0 10px 0 -13px #732f26, 0 14px 0 -5px #b95a4c;
-    background: linear-gradient(135deg, #ffe128 0%, #ff9b5c 30.21%, #ff8381 63.29%, #ff5489 100%);
-    width: 150px;
-    height: 200px;
-    margin-left: 1000px;
     bottom: 479px;
     color: white;
-    position: relative;
+}
+.review:nth-child(1){
+    box-shadow: 0 10px 0 -13px #533978, 0 14px 0 -5px #7b54b2;
+    background: linear-gradient(135deg, #00e5e6 7.29%, #00a8f7 26.04%, #9a76f9 62.5%, #cc5ec2 100%);
+}
+.review:nth-child(2){
+    box-shadow: 0 10px 0 -13px #61337c, 0 14px 0 -5px #9159b1;
+    background: linear-gradient(135deg, #ff68b4 0%, #ff45e1 26.04%, #ce3aff 62.84%, #8961ff 100%);
+}
+.review:nth-child(3){
+    box-shadow: 0 10px 0 -13px #732f26, 0 14px 0 -5px #b95a4c;
+    background: linear-gradient(135deg, #ffe128 0%, #ff9b5c 30.21%, #ff8381 63.29%, #ff5489 100%);
 }
 .Order{
     background-image: url(/images/background.4.0.png);
