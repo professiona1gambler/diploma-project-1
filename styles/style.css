@@ -107,6 +107,9 @@ a:hover{
     align-items: center;
     justify-content: space-between;
     column-gap: 6px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 70px;
 }
 .review-profile img{
     width: 31px;
@@ -131,6 +134,7 @@ a:hover{
     height: 200px;
     bottom: 479px;
     color: white;
+    margin-top: 40px;
 }
 .review:nth-child(1){
     box-shadow: 0 10px 0 -13px #533978, 0 14px 0 -5px #7b54b2;
@@ -176,7 +180,7 @@ input{
 }
 .footer{
     background-color: #021635;
-    background-repeat: no-repeat;
+    width: 1440px;
 }
 p{
     color: white;
@@ -191,4 +195,26 @@ p{
 }
 .p3{
     margin-left: 165px;
+}
+.i1{
+    width: 100px;
+    margin-left: 980px;
+    
+}
+.i2{
+    height: 20px;
+    margin-left: 1000px;
+}
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 290px;
+    margin-left: 165px;
+    border-bottom: 1px solid #9b9b9b;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}  
+.pictures{
+
+    
 }
